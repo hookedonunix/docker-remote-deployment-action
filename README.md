@@ -10,7 +10,7 @@ Below is a brief example on how the action can be used:
 
 ```yaml
 - name: Deploy to Docker swarm
-  uses: sulthonzh/docker-remote-deployment-action@v1
+  uses: hookedonunix/docker-remote-deployment-action@v1
   with:
     remote_docker_host: user@host
     ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
