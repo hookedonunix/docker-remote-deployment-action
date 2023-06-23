@@ -19,7 +19,7 @@ Below is a brief example on how the action can be used:
     copy_stack_file: true
     deploy_path: /root/my-deployment
     stack_file_name: docker-compose.yaml
-    keep_files: 5
+    keep_files: 3
     args: my_applicaion
 ```
 
