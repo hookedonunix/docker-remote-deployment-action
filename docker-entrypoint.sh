@@ -103,6 +103,7 @@ docker context create remote --docker "host=ssh://$INPUT_REMOTE_DOCKER_HOST:$INP
 docker context use remote
 
 ls -hal
+ls -hal /github/workspace
 pwd
 
 if ! [ -z "${INPUT_DOCKER_REGISTRY_USERNAME+x}" ] && ! [ -z "${INPUT_DOCKER_REGISTRY_PASSWORD+x}" ]; then
